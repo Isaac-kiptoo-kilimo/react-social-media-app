@@ -11,7 +11,7 @@ import SearchForm from '../components/SearchForm';
 const Navbar=()=>{
     return (
        <div className="navbar">
-        <div className="left-nav">
+        <div className="nav-logo">
         <img src={Responsive} alt={Responsive} />
         <img src={LogoIcon} alt={LogoIcon} />
             
@@ -20,11 +20,13 @@ const Navbar=()=>{
             <div className="nav-input">
                 <SearchForm/>
             </div>
+            <div>
             <div className="nav-icons">
             <NavIcon url={Message}/>
             <NavIcon url={ActiveNotification}/>
-            <NavIcon url={Profile}/>
+            <img className="profile" width={50} src={Profile} alt="profile"/>
             <NavIcon url={Chevron}/>
+            </div>
             </div>
         </div>
        </div>

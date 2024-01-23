@@ -3,7 +3,7 @@ import './NavIcon.scss';
 
 const NavIcon=({url})=>{
     return(
-        <img src={url} alt="Hiphonic" />
+        <img className='img' src={url} alt="Hiphonic" />
     )
 }
 
