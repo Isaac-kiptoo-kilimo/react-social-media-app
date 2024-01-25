@@ -1,10 +1,17 @@
 import './Main.scss';
+import MainContent from './MainContent';
+import SideBar from './SideBar';
 
 
 const Main=()=>{
     return (
        <div className="main">
-         <h2>Main</h2>
+         <div className="sidebar">
+          <SideBar/>
+         </div>
+         <div className="main-content">
+          <MainContent/>
+         </div>
        </div>
     )
 };
