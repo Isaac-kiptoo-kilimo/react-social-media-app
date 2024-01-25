@@ -1,9 +1,8 @@
 .ShortCutItems {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
     text-transform: capitalize;
+    padding: 10px 20px;
     .heading {
       display: flex;
       justify-content: flex-start;
@@ -18,7 +17,7 @@
     .shortcut-item{
       display: flex;
       justify-content: flex-start;
-      align-items: center;
+      // align-items: center;
       gap: 10px;
       padding: 10px 1px;
       color: #0F172A;
