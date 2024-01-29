@@ -4,7 +4,7 @@ import friends from "../assets/users.png";
 import groups from "../assets/star.png";
 import video from "../assets/video.png";
 import photos from "../assets/image.png";
-import calendar from "../assets/calendar.png";
+import Events from "../assets/calendar.png";
 import "./SideItems.scss";
 
 function SideItems() {
@@ -30,8 +30,8 @@ function SideItems() {
         icon: photos,
       },
       {
-        name: "calendar",
-        icon: calendar,
+        name: "Events",
+        icon: Events,
       },
     ];
   return (
