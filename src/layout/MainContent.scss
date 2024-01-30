@@ -1,12 +1,14 @@
 .main-right-content{
     display: flex;
-    width: 60vw;
+    flex-wrap: wrap;
+    // width: 60vw;
     background-color: #F8FAFC;
     .middle-content{
         flex: 6;
         margin: 10px;
+        width: 50vw;
     }
     .rightbar{
-        flex: 3;
+        flex: 1;
     }
 }
