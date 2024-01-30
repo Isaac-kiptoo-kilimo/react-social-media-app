@@ -1,5 +1,6 @@
 import React from 'react'
 import './Bottom.scss'
+import CenterBody from '../layout/CenterBody'
 
 const Bottom = () => {
   return (
@@ -27,6 +28,7 @@ const Bottom = () => {
         </div>
       </div>
 
+      <CenterBody/>
     </div>
   )
 }

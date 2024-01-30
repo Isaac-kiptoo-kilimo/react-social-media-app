@@ -1,8 +1,11 @@
 .main-right-content{
     display: flex;
     width: 100vw;
-    background-color: yellow;
+    // background-color: yellow;
     .middle-content{
         flex: 6;
+    }
+    .rightbar{
+        flex: 3;
     }
 }
