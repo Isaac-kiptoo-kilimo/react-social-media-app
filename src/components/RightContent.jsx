@@ -4,7 +4,8 @@ import Avatar from '../assets/Avatar.png'
 import video from '../assets/video.png'
 import vectoround from '../assets/vectoround.png'
 import star from '../assets/star.png'
-import unsplash from '../assets/photo-image1.png'
+import PostImage from '../assets/post-image1.png'
+import PostImage2 from '../assets/post-image2.png'
 import Share from '../assets/share.png'
 import Message from '../assets/message-circle.png'
 import Share2 from '../assets/share.png'
@@ -12,6 +13,7 @@ import Share2 from '../assets/share.png'
 const RightContent = () => {
   return (
     <div className='right-center'>
+        <div className="top-items">
         <div className="top">
             <div className="pro">
                 <img src={Avatar} alt="" />
@@ -33,10 +35,11 @@ const RightContent = () => {
             </div>
 
             <div className="img">
-                <img src={vectoround} alt="" />
+            <img src={star} alt="" />
                 <p>Activity</p>
             </div>
 
+        </div>
         </div>
 
         <div className="ground">
@@ -51,8 +54,8 @@ const RightContent = () => {
                 <p>Here are some photography works that i made on the weekend with<br /> some of my friends, happy for that!</p>
             </div>
             <div className="images">
-                <img src={unsplash} alt="" />
-                <img src={unsplash} alt="" />
+                <img src={PostImage} alt="" />
+                <img src={PostImage2} alt="" />
             </div>
             <div className="likes">
                 <img src={Share} alt="" />
