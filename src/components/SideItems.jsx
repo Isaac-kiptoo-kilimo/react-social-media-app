@@ -39,6 +39,7 @@ function SideItems() {
       <div className='heading'>
         <p>Menu</p>
       </div>
+      <div className="menu-down">
       {menuItems &&
         menuItems.map((item, index) => (
           <div className="menu-item" key={index}>
@@ -46,6 +47,7 @@ function SideItems() {
             <p>{item.name}</p>
           </div>
         ))}
+      </div>
     </div>
   );
 }

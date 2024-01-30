@@ -35,7 +35,8 @@ function Contacts() {
         <p style={{ textTransform: "uppercase" }}>Contacts</p>
         <p style={{ color: "#2563EB" }}>See all</p>
       </div>
-      {contacts &&
+     <div className="contacts-menu">
+     {contacts &&
         contacts.map((item, index) => (
           <div className='contactcontainer'>
             <div className="contact-item" key={index}>
@@ -44,6 +45,7 @@ function Contacts() {
             </div>
           </div>  
         ))}
+     </div>
     </div>
   );
 }

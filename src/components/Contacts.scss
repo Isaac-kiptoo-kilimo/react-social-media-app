@@ -12,14 +12,21 @@
         font-weight: 700;
       }
     }
+    .contacts-menu{
+    height: 30vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    }
+   
     .contactcontainer {
       .contact-item {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         gap: 10px;
-        padding: 10px;
+        padding: 5px;
         color: #0f172a;
         overflow-y: scroll;
+        
         p {
           font-weight: 600;
           font-size: 14px;
