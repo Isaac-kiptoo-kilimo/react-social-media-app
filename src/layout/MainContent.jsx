@@ -6,7 +6,7 @@ import RightBar from './RightBar';
 
 const MainContent=()=>{
     return (
-       <div className="main">
+       <div className="main-right-content">
          <div className="middle-content">
          <div className="top">
           <Top/>

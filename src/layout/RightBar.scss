@@ -1,10 +1,11 @@
 .RightContent{
     display: flex;
     // flex: 6;
-    // background-color: yellow;
+    background-color: white;
+    padding: 1rem;
     width: 100%;
     gap: 10px;
-    height: 100vh;
+    height: 100%;
     .rightSide{
       width: 100%;
       background-color: #F8FAFC;
