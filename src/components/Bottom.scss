@@ -1,10 +1,14 @@
 .below-image{
     display: flex;
     flex-direction: column;
-   
+   .bottom-top{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 2rem 1rem;
+   }
     .pro{
-        flex: 0.4;
-        
+        flex: 0.2;
         display: flex;
         align-items: center;
         text-align: center;
@@ -14,10 +18,15 @@
 
     .navs{
         display: flex;
+        justify-content: space-between;
         flex: 0.8;
-        
-        gap: 30px;
-        
+        background-color: #F8FAFC;
+        // gap: 30px;
+        padding: 1rem;
+        .posts{
+            border-right: 2px solid rgb(202, 200, 200);
+            padding: 0 10px;
+        }
     }
 
     .dim-header{

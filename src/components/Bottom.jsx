@@ -5,6 +5,7 @@ import CenterBody from '../layout/CenterBody'
 const Bottom = () => {
   return (
     <div className='below-image'>
+      <div className="bottom-top">
       <div className="pro">
         Angela Lee <br />
         @angela
@@ -26,6 +27,7 @@ const Bottom = () => {
           <h3 className='dim-header'>LIKES</h3><br />
           10.7K
         </div>
+      </div>
       </div>
 
       <CenterBody/>
