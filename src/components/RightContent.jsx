@@ -2,13 +2,13 @@ import React from 'react'
 import './RightContent.scss'
 import Avatar from '../assets/Avatar.png'
 import video from '../assets/video.png'
-import vectoround from '../assets/vectoround.png'
 import star from '../assets/star.png'
 import PostImage from '../assets/post-image1.png'
 import PostImage2 from '../assets/post-image2.png'
 import Like from '../assets/heart.png'
 import Smile from '../assets/mood-smile.png'
 import Link from '../assets/link.png'
+import Image from '../assets/image.png'
 import Message from '../assets/message-circle.png'
 import Share2 from '../assets/share.png'
 
@@ -32,7 +32,7 @@ const RightContent = () => {
             </div>
 
             <div  className="img">
-                <img src={star} alt="" />
+                <img src={Image} alt="" />
                 <p>Image/Video</p>
             </div>
 
@@ -53,7 +53,7 @@ const RightContent = () => {
                 </div>
             </div>
             <div className="text">
-                <p>Here are some photography works that i made on the weekend with<br /> some of my friends, happy for that!</p>
+                <p>Here are some photography works that i made on the weekend with some of my friends, happy for that!</p>
             </div>
             <div className="images">
                 <img src={PostImage} alt="" />

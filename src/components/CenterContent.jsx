@@ -2,7 +2,9 @@ import React from 'react';
 import './CenterContent.scss';
 import Vector from '../assets/Group.png'
 import Link from '../assets/link.png'
-import Vectoround from '../assets/vectoround.png'
+import Map from '../assets/map.png'
+
+// import Vectoround from '../assets/vectoround.png'
 // import calender1 from '../assets/calender1.png'
 import unsplash from '../assets/photo-image1.png'
 
@@ -25,19 +27,19 @@ const CenterContent = () => {
             </div>
             <div>
                 <div className="icon-p">
-                    <img src={Vector} alt="" />
+                    <img src={Map} alt="" /> 
                     <p>29272 Westheimer Rd.</p>
                 </div>
                 <div className="icon-p">
-                    <img src={Link} alt="" />
+                    <img src={Vector} alt="" />
                     <p>Binford Ltd.</p>
                 </div>
                 <div className="icon-p">
-                    <img src={Vectoround} alt="" />
+                    <img src={Vector} alt="" />
                     <p>September 24, 2017</p>
                 </div>
                 <div className="icon-p">
-                    <img src={Vector} alt="" />
+                    <img src={Link} alt="" />
                     <p>drible.com/Angela</p>
                 </div>
             </div>
