@@ -12,7 +12,11 @@ const CenterContent = () => {
     <div className='left-center'>
         <div className="completePro">
             <h4>Completed Your Profile</h4>
+            <div>
+            <progress value="80" max="100"></progress>
             <span>80%</span>
+            </div>
+           
         </div>
         <div className="intro">
             <div className='experience'>
