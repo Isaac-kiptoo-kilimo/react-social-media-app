@@ -1,5 +1,8 @@
 .navbar{
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 88px;
     flex-shrink: 0;
     border-bottom: 1px solid #F1F5F9;
