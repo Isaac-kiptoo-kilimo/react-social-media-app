@@ -1,28 +1,26 @@
 import Bottom from '../components/Bottom';
 import Top from '../components/Top';
-import './MainContent.scss';
-import RightBar from './RightBar';
+import './Events.scss';
 
 
-const MainContent=()=>{
+
+const Events=()=>{
     return (
        <div className="main-right-content">
          <div className="middle-content">
          <div className="top">
-          <Top/>
+         <h2>Events page Here</h2>
         </div>
         <div className="bottom">
-          <Bottom/>
+         
         </div>
       </div>
-       <div className="rightbar">
-       <RightBar/> 
-       </div>
+      
 
              
  </div>
     )
 };
 
-export default MainContent;
+export default Events;
 
