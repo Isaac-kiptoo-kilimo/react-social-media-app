@@ -1,16 +1,17 @@
 
-import './Friends.scss';
+import FriendsCard from '../components/friends/FriendsCard';
+import './FriendsPage.scss';
 
 
-const Friends=()=>{
+
+const FriendsPage=()=>{
     return (
        <div className="main-right-content">
          <div className="middle-content">
          <div className="top">
-          <h1>Friends Page here</h1>
+          <FriendsCard/>
         </div>
         <div className="bottom">
-          <Bottom/>
         </div>
       </div>
       
@@ -20,5 +21,5 @@ const Friends=()=>{
     )
 };
 
-export default Friends;
+export default FriendsPage;
 

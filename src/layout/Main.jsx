@@ -4,11 +4,11 @@ import RightBar from './RightBar';
 import SideBar from './SideBar';
 import { Routes,Route } from 'react-router-dom';
 import GroupsPage from '../pages/GroupsPage';
-import Friends from '../pages/Friends';
 import Timeline from '../pages/Timeline';
 import Videos from '../pages/Videos';
 import Photos from '../pages/Photos';
 import Events from '../pages/Events';
+import FriendsPage from '../pages/FriendsPage';
 
 
 
@@ -22,7 +22,7 @@ const Main=()=>{
          <Routes>
           <Route path='/' element={<Profile/>}/>
           <Route path='/timeline' element={<Timeline/>}/>
-          <Route path='//friends' element={<Friends/>}/>
+          <Route path='/friends' element={<FriendsPage/>}/>
           <Route path='/groups' element={<GroupsPage/>}/>
           <Route path='/videos' element={<Videos/>}/>
           <Route path='/photos' element={<Photos/>}/>

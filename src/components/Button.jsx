@@ -1,12 +1,10 @@
 import './Button.scss'
 
-function Button({ msg, sign }) {
+function Button({ msg }) {
     return (
         <div>
             <button className='button'>
-                {
-                    sign && <span> + </span>
-                }
+               
                 <span>{msg}</span>
             </button>
         </div>
