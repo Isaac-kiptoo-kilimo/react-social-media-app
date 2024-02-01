@@ -21,9 +21,7 @@ const Profile=()=>{
 
              
  </div>
- <div className="footer">
- <Notifications/>
- </div>
+ 
  </>
 
     )

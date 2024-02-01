@@ -1,3 +1,6 @@
+
+.nav-top{
+    position: relative;
 .navbar{
     display: flex;
     position: fixed;
@@ -45,5 +48,17 @@
         }
       
     }
+    
+}
 }
 
+
+.notifications-main{
+    position: absolute;
+    background-color: #F8FAFC;
+    transform: translate(-50%, -50%);
+    top: 70%;
+left: 50%;
+    z-index: 10;
+    width: 100%;
+}

@@ -1,60 +1,49 @@
 import React from "react";
-import "./TodayNotifications.scss";
+import "./YesterdayNotifications.scss";
 import wade from "../../assets/wade.png";
-import jane from "../../assets/jane.png";
-import esther from "../../assets/esther.png";
-import brooklyn from "../../assets/brooklyn.png";
 import Angela from "../../assets/angela.png";
-import Leslie from "../../assets/leslie.png";
-import Jenny from "../../assets/jenny.png";
-import Robert from "../../assets/robert.png";
-import Cody from "../../assets/cody.png";
-import Kristina from "../../assets/kristina.png";
 
-function NotificationsItem() {
+
+function YesterdayNotifications() {
   const friends = [
     {
       image: Angela,
-      username: "You",
-      message:"started Following you"
+    name: "You",
+      message:"started Following you",
+      time:"08:15"
     },
     {
       image: wade,
-      username: "wadee",
-      message:"Joined UI officia Group"
-    },
-    {
-      image: jane,
-      username: "jane",
-      message:"Joined UI officia Group"
-    },
-    {
-      image: esther,
-      username: "esther",
-      message:"Joined UI officia Group"
-    },
-    {
-      image: brooklyn,
-      username: "Brooklyn",
-      message:"Joined UI officia Group"
+      name: "wadee",
+      message:"Joined UI officia Group",
+      time:"08:15"
     }
    
   ];
   return (
-    <div className="notifications">
-      <div className="notification-menu">
+    <div className="yes-notifications">
+      <div className="yes-notification-top">
+        <h4>YESTERDAY</h4>
+      </div>
+      <div className="yes-notification-menu">
         {friends &&
           friends.map((item, index) => (
-            <div className="notification" key={index}>
-              <div className="not-card-top">
+            <div className="yes-notification" key={index}>
+              <div className="yes-not-card-top">
                 <img src={item.image} alt={item.name} />
-                <p>{item.username}</p>
+                <div className="yes-not-content">
+                <h3>{item.name}</h3>
+                <p>{item.message}</p>
+                </div>
+                
               </div>
+              <p>{item.time}</p>
             </div>
           ))}
       </div>
     </div>
   );
+ 
 }
 
-export default NotificationsItem;
+export default YesterdayNotifications;
