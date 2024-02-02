@@ -3,7 +3,7 @@ import './Videos.scss';
 
 
 
-const Profile=()=>{
+const Videos=()=>{
     return (
        <div className="main-right-content">
          <div className="middle-content">
@@ -21,5 +21,5 @@ const Profile=()=>{
     )
 };
 
-export default Profile;
+export default Videos;
 

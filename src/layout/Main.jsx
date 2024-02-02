@@ -9,16 +9,21 @@ import Videos from "../pages/Videos";
 import Photos from "../pages/Photos";
 import Events from "../pages/Events";
 import FriendsPage from "../pages/FriendsPage";
+import Navbar from "./Navbar";
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main-wrapper">
+      <div className="top-nav">
+      <Navbar/>
+      </div>
+      <div className="main">
       <div className="sidebar">
         <SideBar />
       </div>
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<Profile />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/friends" element={<FriendsPage />} />
           <Route path="/groups" element={<GroupsPage />} />
@@ -31,6 +36,8 @@ const Main = () => {
         <RightBar />
       </div>
     </div>
+    </div>
+   
   );
 };
 

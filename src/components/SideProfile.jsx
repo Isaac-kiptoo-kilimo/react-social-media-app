@@ -10,7 +10,7 @@ function SideProfile() {
 
   const handleProfile=()=>{
       setShowProfile(true)
-      navigate("/");
+      navigate("/profile");
       console.log("navigation");
   }
   return (
