@@ -1,4 +1,5 @@
 import GroupVideos from "../components/videos/GroupVideos";
+import SingleVideo from "../components/videos/SingleVideo";
 import "./Videos.scss";
 
 const Videos = () => {
@@ -8,7 +9,9 @@ const Videos = () => {
         <div className="top">
           <GroupVideos />
         </div>
-        <div className="bottom"></div>
+        <div className="bottom">
+          <SingleVideo/>
+        </div>
       </div>
     </div>
   );
