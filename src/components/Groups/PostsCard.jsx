@@ -1,27 +1,27 @@
-import React from 'react'
-import NavIcon from '../NavIcon';
-import SearchIcon from '../../assets/search-circle.png'
-import Button from '../shared/Button'
+import React from "react";
+import NavIcon from "../NavIcon";
+import FriendIcon from "../../assets/friend-icon.png";
 
-import './PostsCard.scss'
-
-
+import "./PostsCard.scss";
 
 
 const PostsCard = () => {
   return (
- 
-      <div className='group-page-header'>
-      <div className="group-page-title">
-        <h2>Groups</h2>
+      <div className="post-card-head">
+        <div className="post-card-left-items">
+          <div className="post-card-user">
+            <h4>UD</h4>
+          </div>
+          <div className="post-card-user-desc">
+            <h4>UI / UX Designer</h4>
+            <p>
+              Bandung • <span>7 posts a day</span>
+            </p>
+          </div>
+        </div>
+        <NavIcon url={FriendIcon} />
       </div>
-      <div className="group-page-icon">
-        <NavIcon url={SearchIcon}/>
-        <Button msg="Join Group" />
-      </div>
-    </div>
-
-  )
-}
+  );
+};
 
 export default PostsCard;
