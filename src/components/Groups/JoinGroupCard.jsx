@@ -18,41 +18,45 @@ const JoinGroupCard = () => {
       <GroupHeader />
       <div className="group-sub-titles">
         <div className="sub-titles-left">
-        <h4>Suggested for you</h4>
-        <p>Groups you might be interested in.</p>
+          <h4>Suggested for you</h4>
+          <p>Groups you might be interested in.</p>
         </div>
         <div className="sub-titles-right">
           <NavLink className="navlink">See All</NavLink>
         </div>
       </div>
-    <div className="group-card-container">
-    <div className="card-contents">
-      <PostsCard/>
-      <PostImageCard PostImage={MaskGroup1}/>
-      <div className="group-page-icon">
-        <Button msg="Join Group" />
-       <div className="group-bottom">
-       <MembersIcons MbrIcon={EventThree}/>
-        <MembersIcons MbrIcon={EventOne}/>
-        <MembersIcons MbrIcon={EventTwo}/>
-        <p>2K</p>
-       </div>
+      <div className="group-card-container">
+        <div className="card-contents">
+          <PostsCard />
+          <PostImageCard PostImage={MaskGroup1} />
+          <div className="group-page-icon">
+            <Button msg="Join Group" />
+            <div className="group-bottom">
+              <MembersIcons MbrIcon={EventThree} />
+              <MembersIcons MbrIcon={EventOne} />
+              <MembersIcons MbrIcon={EventTwo} />
+              <div className="group-para">
+              <p>2K</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card-contents">
+          <PostsCard />
+          <PostImageCard PostImage={MaskGroup2} />
+          <div className="group-page-icon">
+            <Button msg="Join Group" />
+            <div className="group-bottom">
+              <MembersIcons  MbrIcon={EventThree} />
+              <MembersIcons className="mbrs-icon" MbrIcon={EventOne} />
+              <MembersIcons MbrIcon={EventTwo} />
+              <div className="group-para">
+              <p>2K</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-     </div>
-     <div className="card-contents">
-      <PostsCard/>
-      <PostImageCard PostImage={MaskGroup2}/>
-      <div className="group-page-icon">
-        <Button msg="Join Group" />
-       <div className="group-bottom">
-       <MembersIcons MbrIcon={EventThree}/>
-        <MembersIcons MbrIcon={EventOne}/>
-        <MembersIcons MbrIcon={EventTwo}/>
-        <p>2K</p>
-       </div>
-      </div>
-     </div>
-    </div>
     </div>
   );
 };
