@@ -3,7 +3,8 @@ import "./Notifications.scss";
 import TodayNotifications from "./TodayNotifications";
 import YesterdayNotifications from "./YesterdayNotifications";
 import Close from '../../assets/close.png';
-import Button from "../Button";
+import Button from "../shared/Button";
+
 
 function Notifications({ onClose }) {
   const [isModalVisible, setModalVisibility] = useState(true);

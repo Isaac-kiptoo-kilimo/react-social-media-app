@@ -56,8 +56,7 @@ const Navbar = () => {
     </div>
     {isNotificationVisible && (
         <div className="notifications-main">
-          <Notifications />
-          
+          <Notifications /> 
         </div>
       )}
     </>

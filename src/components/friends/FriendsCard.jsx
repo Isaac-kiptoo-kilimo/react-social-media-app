@@ -11,8 +11,8 @@ import Robert from "../../assets/robert.png";
 import Cody from "../../assets/cody.png";
 import Kristina from "../../assets/kristina.png";
 import FriendIcon from "../../assets/friend-icon.png";
+import Button from "../shared/Button";
 
-import Button from "../Button";
 
 const FriendsCard = () => {
   const contacts = [

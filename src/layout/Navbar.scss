@@ -53,12 +53,16 @@
 }
 
 
-.notifications-main{
+  .notifications-main{
     position: absolute;
     background-color: #F8FAFC;
-    transform: translate(-50%, -50%);
-    top: 70%;
-left: 50%;
-    z-index: 10;
-    width: 100%;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    overflow-x: scroll;
 }
+
+
+
+

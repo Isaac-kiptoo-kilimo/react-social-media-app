@@ -1,4 +1,5 @@
 
+import JoinGroupCard from '../components/Groups/JoinGroupCard';
 import './GroupsPage.scss';
 
 
@@ -8,7 +9,7 @@ const GroupsPage=()=>{
        <div className="main-right-content">
          <div className="middle-content">
          <div className="top">
-            <h2>Groups page</h2>      
+            <JoinGroupCard/>   
          </div>
         <div className="bottom">
         </div>
