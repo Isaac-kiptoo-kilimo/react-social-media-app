@@ -30,7 +30,7 @@ const MainPhotosCard = () => {
         <div className="photos-title-top">
           <h4 className="about-you-photos">Photos About You</h4>
           <h4 className="your-photos">Your Photos</h4>
-          <h4 className="photos album">Album</h4>
+          <h4 className="photos-album">Album</h4>
         </div>
         <div className="total-photos">
             <h4>Total Photos</h4>
