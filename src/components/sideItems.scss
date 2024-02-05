@@ -3,10 +3,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px 20px;
-    
-    // align-items: center;
     text-transform: capitalize;
-    font-size: 12px;
+    font-size: 16px;
     .heading {
       display: flex;
       justify-content: flex-start;
@@ -19,29 +17,28 @@
         text-transform: uppercase;
       }
     }
-    .menu-down{
-      height: 36vh;
-      overflow: scroll;
-      scroll-behavior: smooth;
-    }
+   
     .menu-item{
       display: flex;
       // justify-content: center;
       // align-items: center;
-      
+
       gap: 8px;
       padding: 9px;
       color: #64748B;
     }
     .active {
       font-weight: bold;
-      color: blue; 
-    
+      color: blue;
+         
       &:before {
-        content: '\2022'; 
+        content: ''; 
         color: blue; 
+        background-color: blue;
         margin-left: -10px;
-        margin-right: 5px;
+        height: 25px;
+        width: 3px;
+        // margin-right: 5px;
       }
       img {
         filter: brightness(150%); 

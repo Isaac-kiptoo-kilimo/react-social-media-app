@@ -50,7 +50,7 @@ function SideItems() {
       <div className="menu-down">
         {menuItems &&
           menuItems.map((item) => (
-            <NavLink
+            <NavLink style={{textDecorationLine:"none"}}
               key={item.path}
               to={item.path}
               className={({ isActive }) => (isActive ? "menu-item active" : "menu-item")}
