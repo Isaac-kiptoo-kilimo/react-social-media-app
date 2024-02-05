@@ -55,7 +55,11 @@
                 flex-direction: row;
                 justify-content: space-between;
                 padding: 10px 0;
-          
+                .events-page-icon-head{
+                  p{
+                    color: #64748B;
+                  }  
+                }
                 .events-bottom{
                     display: flex;
                     align-items: center;

@@ -4,11 +4,11 @@ import NavIcon from '../NavIcon';
 import Calendar from '../../assets/calendar.png'
 
 
-const EventCalendar = () => {
+const EventCalendar = ({Eventmsg}) => {
   return (
     <div className="btn-events">
     <NavIcon url={Calendar}/>
-      <h5>November</h5>
+      <h5>{Eventmsg}</h5>
   </div>
   )
 }
