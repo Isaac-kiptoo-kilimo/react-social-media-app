@@ -1,9 +1,8 @@
 import React from 'react'
 import './EventCard.scss'
 import EventHeader from './EventHeader'
-import Button from '../shared/Button'
-import Calendar from '../../assets/calendar.png'
 import NavIcon from '../NavIcon'
+import EventCalendar from './EventCalendar'
 
 const EventCard = () => {
   return (
@@ -19,10 +18,11 @@ const EventCard = () => {
           <h4 >Favorite</h4>
           <h4 >Registered</h4>
         </div>
-        <div className="btn-events">
+        <EventCalendar/>
+        {/* <div className="btn-events">
           <NavIcon url={Calendar}/>
             <h5>November</h5>
-        </div>
+        </div> */}
       </div>
       <div className="events-images">
        
