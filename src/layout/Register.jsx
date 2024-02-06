@@ -77,46 +77,46 @@ const Register = () => {
           <div className="form-head">
             <h2>Create An Account</h2>
           </div>
-          <div className="login-page">
-            <div className="login-img"></div>
-            <form className="login" onSubmit={handleSubmit(RegisterUser)}>
-              <div className="login__field">
-                <FaAddressCard className="login__icon fas fa-user" />
+          <div className="register-page">
+            <div className="register-img"></div>
+            <form className="register" onSubmit={handleSubmit(RegisterUser)}>
+              <div className="register__field">
+                <FaAddressCard className="register__icon fas fa-user" />
                 <input
                   type="text"
-                  className="login__input"
+                  className="register__input"
                   {...register("fullName")}
                   placeholder="Enter your FullName"
                 />
                 <p>{errors.fullName?.message}</p>
               </div>
-              <div className="login__field">
-                <FaAddressCard className="login__icon fas fa-user" />
+              <div className="register__field">
+                <FaAddressCard className="register__icon fas fa-user" />
                 <input
                   type="text"
-                  className="login__input"
+                  className="register__input"
                   {...register("email")}
                   placeholder="Enter your Email"
                 />
                 <p>{errors.email?.message}</p>
               </div>
-              <div className="login__field">
-                <FaLock className="login__icon fas fa-lock" />
+              <div className="register__field">
+                <FaLock className="register__icon fas fa-lock" />
                 <input
                   type="password"
-                  className="login__input"
+                  className="register__input"
                   {...register("password")}
                   placeholder="Password"
                 />
                 <p>{errors.password?.message}</p>
               </div>
-              <button type="submit" className="button login__submit">
+              <button type="submit" className="button register__submit">
                 <span className="button__text">Register Now</span>
                 <FaAnglesRight className="button__icon fas fa-chevron-right" />
               </button>
             </form>
           </div>
-          <div class="social-login">
+          <div class="social-register">
             <h3>Have an Account already</h3>
             <a onClick={loginNavigation}>Login Here</a>
           </div>
