@@ -1,7 +1,7 @@
 import React from 'react'
-import websiteDesign from "../assets/website-design.png";
-import mobileDesign from "../assets/mobile-design.png";
-import productDesign from "../assets/product-design.png";
+import websiteDesign from "../../assets/website-design.png";
+import mobileDesign from "../../assets/mobile-design.png";
+import productDesign from "../../assets/product-design.png";
 import "./ShortCuts.scss"
 function ShortCuts() {
     const shortCutItems = [

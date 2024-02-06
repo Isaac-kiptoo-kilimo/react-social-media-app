@@ -1,5 +1,5 @@
 import React from 'react'
-import NavIcon from '../NavIcon'
+import NavIcon from '../shared/NavIcon'
 import Location from '../../assets/location.png'
 import './EventVenue.scss'
 

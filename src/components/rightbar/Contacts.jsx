@@ -1,10 +1,10 @@
 import React from 'react'
 import './Contacts.scss'
-import wade from "../assets/Avatar.png"
-import jane from "../assets/Avatar1.png"
-import esther from "../assets/Avatar2.png"
-import cameron from "../assets/Avatar3.png"
-import brooklyn from "../assets/Avatar4.png"
+import wade from "../../assets/Avatar.png"
+import jane from "../../assets/Avatar1.png"
+import esther from "../../assets/Avatar2.png"
+import cameron from "../../assets/Avatar3.png"
+import brooklyn from "../../assets/Avatar4.png"
 
 function Contacts() {
     const contacts = [

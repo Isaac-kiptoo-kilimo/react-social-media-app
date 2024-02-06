@@ -1,9 +1,8 @@
 import "./RightBar.scss"
-import ShortCuts from "../components/ShortCuts";
-import Groups from "../components/Groups";
-import Contacts from "../components/Contacts";
-import Top from "../components/Top";
-import Bottom from "../components/Bottom";
+import ShortCuts from "../components/sidebar/ShortCuts";
+import Groups from "../components/rightbar/Groups";
+import Contacts from "../components/rightbar/Contacts";
+
 
 const RightBar=()=>{
   return (

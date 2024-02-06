@@ -1,6 +1,6 @@
 import React from "react";
 import "./SingleVideo.scss";
-import NavIcon from "../NavIcon";
+import NavIcon from "../shared/NavIcon";
 import SingleVideoImage from "../../assets/single-video.png";
 import SingleUser from "../../assets/single-user.png";
 import PostImageCard from "../Groups/PostImageCard";

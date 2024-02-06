@@ -1,7 +1,5 @@
 import React from "react";
-import NavIcon from "../NavIcon";
-import FriendIcon from "../../assets/friend-icon.png";
-import Button from "../shared/Button";
+
 
 import "./PostImageCard.scss";
 

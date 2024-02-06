@@ -1,6 +1,6 @@
 import React from 'react'
 import './EventCalendar.scss'
-import NavIcon from '../NavIcon';
+import NavIcon from '../shared/NavIcon';
 import Calendar from '../../assets/calendar.png'
 
 

@@ -1,12 +1,12 @@
 import "./Navbar.scss";
 import LogoIcon from "../assets/logo.png";
 import Responsive from "../assets/responsive.png";
-import NavIcon from "../components/NavIcon";
+import NavIcon from "../components/shared/NavIcon";
 import ActiveNotification from "../assets/active-notification.png";
 import Profile from "../assets/profile-image.png";
 import Chevron from "../assets/chevron-down.png";
 import Message from "../assets/message-circle.png";
-import SearchForm from "../components/SearchForm";
+import SearchForm from "../components/navbar/SearchForm";
 import Notifications from "../components/notifications/Notifications";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";

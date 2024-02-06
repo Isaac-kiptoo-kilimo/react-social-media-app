@@ -1,5 +1,4 @@
-import Bottom from "../components/Bottom";
-import Top from "../components/Top";
+
 import EventCard from "../components/event/EventCard";
 import "./Events.scss";
 

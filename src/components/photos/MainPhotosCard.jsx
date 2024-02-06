@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainPhotosCard.scss";
 import PhotosHeader from "./PhotosHeader";
-import NavIcon from "../NavIcon";
+import NavIcon from "../shared/NavIcon";
 import PhotosImage1 from '../../assets/photos-image1.png'
 import PhotosImage2 from '../../assets/photos-image2.png'
 import PhotosImage3 from '../../assets/photos-image3.png'

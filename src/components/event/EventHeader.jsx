@@ -1,5 +1,5 @@
 import React from 'react'
-import NavIcon from '../NavIcon';
+import NavIcon from '../shared/NavIcon';
 import Dots from '../../assets/dots.png'
 import './EventHeader.scss'
 const EventHeader = () => {

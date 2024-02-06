@@ -1,5 +1,5 @@
 import React from "react";
-import NavIcon from "../NavIcon";
+import NavIcon from "../shared/NavIcon";
 import FriendIcon from "../../assets/friend-icon.png";
 
 import "./PostsCard.scss";

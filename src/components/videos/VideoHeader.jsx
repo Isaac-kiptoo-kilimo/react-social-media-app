@@ -1,10 +1,8 @@
 import React from 'react'
-import NavIcon from '../NavIcon';
+import NavIcon from '../shared/NavIcon';
 import SearchIcon from '../../assets/search-circle.png'
 
 import './VideoHeader.scss'
-
-
 
 
 const VideoHeader = () => {

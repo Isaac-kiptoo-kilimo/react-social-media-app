@@ -1,6 +1,6 @@
 import React from "react";
 import "./RecentActivityCard.scss";
-import NavIcon from "../NavIcon";
+import NavIcon from "../shared/NavIcon";
 import PostImageCard from "./PostImageCard";
 import RecentImage from "../../assets/recent-image1.png";
 import RecentImage2 from "../../assets/recent-image2.png";

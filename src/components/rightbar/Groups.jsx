@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Groups.scss"
-import Group1 from "../assets/Group1.png";
-import Group2 from "../assets/Group2.png";
-import Group3 from "../assets/Group3.png";
+import Group1 from "../../assets/Group1.png";
+import Group2 from "../../assets/Group2.png";
+import Group3 from "../../assets/Group3.png";
 
 function Groups() {
     const groupData = [

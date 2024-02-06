@@ -1,5 +1,5 @@
 import React from 'react'
-import NavIcon from '../NavIcon';
+import NavIcon from '../shared/NavIcon';
 import SearchIcon from '../../assets/search-circle.png'
 import Button from '../shared/Button'
 import Plus from '../../assets/plus.png'

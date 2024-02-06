@@ -1,12 +1,9 @@
 import React from 'react';
 import './CenterContent.scss';
-import Vector from '../assets/Group.png'
-import Link from '../assets/link.png'
-import Map from '../assets/map.png'
-
-// import Vectoround from '../assets/vectoround.png'
-// import calender1 from '../assets/calender1.png'
-import unsplash from '../assets/photo-image1.png'
+import Vector from '../../assets/Group.png'
+import Link from '../../assets/link.png'
+import Map from '../../assets/map.png'
+import unsplash from '../../assets/photo-image1.png'
 
 
 const CenterContent = () => {

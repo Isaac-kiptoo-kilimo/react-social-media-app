@@ -1,8 +1,6 @@
-import Bottom from '../components/Bottom';
-import Top from '../components/Top';
+import Bottom from '../components/profile/Bottom';
+import Top from '../components/profile/Top';
 import './Profile.scss';
-import RightBar from '../layout/RightBar';
-import Notifications from '../components/notifications/Notifications';
 
 
 const Profile=()=>{

@@ -11,7 +11,7 @@ import Robert from "../../assets/robert.png";
 import Cody from "../../assets/cody.png";
 import Kristina from "../../assets/kristina.png";
 
-import RightContent from "../RightContent";
+import RightContent from "../profile/RightContent";
 
 const TimelineCard = () => {
   const friends = [

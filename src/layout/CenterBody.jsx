@@ -1,7 +1,7 @@
 import React from 'react'
 import './CenterBody.scss'
-import CenterContent from '../components/CenterContent'
-import RightContent from '../components/RightContent'
+import CenterContent from '../components/profile/CenterContent'
+import RightContent from '../components/profile/RightContent'
 
 
 

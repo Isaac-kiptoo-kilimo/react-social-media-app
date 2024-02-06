@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import timeline from "../assets/layout-grid.png";
-import friends from "../assets/users.png";
-import groups from "../assets/star.png";
-import video from "../assets/video.png";
-import photos from "../assets/image.png";
-import Events from "../assets/calendar.png";
+import timeline from "../../assets/layout-grid.png";
+import friends from "../../assets/users.png";
+import groups from "../../assets/star.png";
+import video from "../../assets/video.png";
+import photos from "../../assets/image.png";
+import Events from "../../assets/calendar.png";
 import "./SideItems.scss";
 
 function SideItems() {
