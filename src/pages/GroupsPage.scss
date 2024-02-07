@@ -1,10 +1,14 @@
-.main-right-content{
+.group-right-content{
     display: flex;
     flex-wrap: wrap;
     background-color: #F8FAFC;
-    .middle-content{
+    .group-middle-content{
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    width: 60vw; 
+    margin-left: 260px;
+    background-color: white;
     gap: 25px;
     h2{
         padding: 14px 0;
@@ -14,3 +18,17 @@
 
 }
 
+
+@media screen and (max-width:500px){
+    .group-right-content{
+        background-color: #F8FAFC;
+        .group-middle-content{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin: 0;                
+        }
+    
+    
+    }
+}

@@ -1,9 +1,9 @@
-.main-right-content{
+.photos-right-content{
     display: flex;
     flex-wrap: wrap;
     
     background-color: #F8FAFC;
-    .middle-content{
+    .photos-middle-content{
         margin: 10px;
         width: 60vw; 
         margin-left: 260px;
@@ -14,3 +14,16 @@
 
 }
 
+@media screen and (max-width:500px){
+    .photos-right-content{
+        background-color: #F8FAFC;
+        .photos-middle-content{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin: 0;                
+        }
+    
+    
+    }
+}

@@ -1,0 +1,28 @@
+.friends-right-content{
+    display: flex;
+    flex-wrap: wrap;
+   
+    background-color: #F8FAFC;
+    .friends-middle-content{
+        margin: 10px;
+        width: 60vw; 
+        margin-left: 260px;
+        background-color: white;
+    }
+  
+}
+
+
+@media screen and (max-width:500px){
+    .friends-right-content{
+        background-color: #F8FAFC;
+        .friends-middle-content{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin: 0;                
+        }
+    
+    
+    }
+}

@@ -6,8 +6,8 @@ import './FriendsPage.scss';
 
 const FriendsPage=()=>{
     return (
-       <div className="main-right-content">
-         <div className="middle-content">
+       <div className="friends-right-content">
+         <div className="friends-middle-content">
          <div className="top">
           <FriendsCard/>
         </div>

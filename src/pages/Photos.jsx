@@ -6,8 +6,8 @@ import './Photos.scss';
 
 const Photos=()=>{
     return (
-       <div className="main-right-content">
-         <div className="middle-content">
+       <div className="photos-right-content">
+         <div className="photos-middle-content">
          <MainPhotosCard/>      
       </div>
       

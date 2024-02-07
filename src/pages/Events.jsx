@@ -4,8 +4,8 @@ import "./Events.scss";
 
 const Events = () => {
   return (
-    <div className="main-right-content">
-      <div className="middle-content">
+    <div className="event-right-content">
+      <div className="event-middle-content">
         <EventCard />
       </div>
     </div>

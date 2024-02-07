@@ -4,8 +4,8 @@ import "./GroupsPage.scss";
 
 const GroupsPage = () => {
   return (
-    <div className="main-right-content">
-      <div className="middle-content">
+    <div className="group-right-content">
+      <div className="group-middle-content">
         <div className="top">
           <JoinGroupCard />
         </div>
