@@ -65,10 +65,11 @@
         .pro{
             display: flex;
             align-items: center;
+            flex: start;
             gap: 20px;
             // background-color: blue;
         }
-        .info{
+        .bottom-info{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -132,5 +133,12 @@
                     left: 10px; 
                   }
               }    }
+    }
+}
+
+@media screen and (max-width:500px){
+    .right-center{
+        width: 90%;
+    
     }
 }

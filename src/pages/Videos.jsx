@@ -4,12 +4,12 @@ import "./Videos.scss";
 
 const Videos = () => {
   return (
-    <div className="main-right-content">
-      <div className="middle-content">
-        <div className="top">
+    <div className="video-right-content">
+      <div className="video-middle-content">
+        <div className="video-top">
           <GroupVideos />
         </div>
-        <div className="bottom">
+        <div className="video-bottom">
           <SingleVideo/>
         </div>
       </div>

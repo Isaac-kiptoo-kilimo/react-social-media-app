@@ -5,10 +5,10 @@ import './Timeline.scss';
 
 const Timeline=()=>{
     return (
-       <div className="main-right-content">
-         <div className="middle-content">
+       <div className="timeline-right-content">
+         <div className="timeline-middle-content">
         
-        <div className="bottom">
+        <div className="timeline-bottom">
           <TimelineCard/>
         </div>
       </div>

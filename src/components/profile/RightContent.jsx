@@ -17,7 +17,7 @@ const RightContent = () => {
     <div className='right-center'>
         <div className="top-items">
         <div className="top">
-            <div className="pro">
+            <div className="prof">
                 <img src={Avatar} alt="" />
             </div>
             <div className="input" >
@@ -47,7 +47,7 @@ const RightContent = () => {
         <div className="ground">
             <div className="pro">
                 <img src={Avatar} alt="" />
-                <div className="info">
+                <div className="bottom-info">
                     <h4>Angela Lee</h4>
                     <p>56 mins ago</p>
                 </div>
