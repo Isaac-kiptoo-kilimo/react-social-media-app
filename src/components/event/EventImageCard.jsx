@@ -8,7 +8,7 @@ const EventImageCard = ({EventMsg,eventIcon,EventImage}) => {
         <img src={eventIcon} alt="" />
         </div>
     <div className="event-card-image">
-      <img src={EventImage} alt="post Image" />
+      <img src={EventImage} style={{width:'100%'}} alt="post Image" />
     </div>
     
   </div>

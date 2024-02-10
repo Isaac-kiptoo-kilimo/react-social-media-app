@@ -1,13 +1,14 @@
 .event-right-content{
     display: flex;
     flex-wrap: wrap;
-   
     background-color: #F8FAFC;
     .event-middle-content{
         margin: 10px;
         width: 60vw; 
         margin-left: 260px;
         background-color: white;
+        border-radius: 10px;   
+
     }
   
 }
@@ -15,9 +16,11 @@
 
 @media screen and (max-width:500px){
     .event-right-content{
-        background-color: #F8FAFC;
+        // background-color: #F8FAFC;
+        width: 94vw;
+        margin: 10px auto;
         .event-middle-content{
-            width: 100vw;
+            width: 100%;
             display: flex;
             flex-direction: column;
             margin: 0;                
