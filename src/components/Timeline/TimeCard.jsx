@@ -62,7 +62,7 @@ const TimelineCard = () => {
           <div className="first-icons">
             <div className="user-items">
               <div className="you-user">
-                <img src={Angela} style={{ width: "100%" }} alt={name} />
+                <img src={Angela}  alt={name} />
               </div>
               <div className="plus-icon">
                 <NavIcon url={Add} />

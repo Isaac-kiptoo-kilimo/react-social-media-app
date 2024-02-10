@@ -77,11 +77,19 @@ function TimelineBottom() {
       </div>
 
       <div className="timeline-ground">
+        <div className="time-ground-top">
         <div className="timeline-pro">
           <img src={Avatar} alt="" />
           <div className="timeline-bottom-info">
             <h4>Angela Lee</h4>
             <p>56 mins ago</p>
+          </div>
+         
+        </div>
+        <div className="time-bottom-right">
+            <div>
+            <NavIcon url={Dots} />
+            </div>
           </div>
         </div>
         <div className="timeline-text">

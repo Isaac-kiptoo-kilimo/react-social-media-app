@@ -48,10 +48,23 @@
     .timeline-menu{
         
         .timelines{
-            // flex-wrap: wrap;
             gap: 1rem;
             .first-icons{
-                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100px;
+                .user-items{
+                    display: flex;
+                    flex-direction: row;
+                    height: 100%;
+                    .plus-icon{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    margin-left: -10px;
+                    }
+                }
             }
             
         }

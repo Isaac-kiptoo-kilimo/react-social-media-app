@@ -6,7 +6,9 @@ import './EventVenue.scss'
 function EventVenue() {
   return (
     <div className="venue-container">
+        <div>
         <NavIcon url={Location}/>
+        </div>
         <div className="venue-content">
             <p>4517 Washington Ave. Manchester,</p>
             <p>Kentucky 39495</p>
