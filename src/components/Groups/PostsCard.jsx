@@ -21,7 +21,9 @@ const PostsCard = () => {
             </p>
           </div>
         </div>
-        <NavIcon url={FriendIcon} />
+       <div className="post-icon-card">
+       <NavIcon url={FriendIcon} />
+       </div>
       </div>
   );
 };

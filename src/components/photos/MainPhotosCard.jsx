@@ -38,8 +38,56 @@ const MainPhotosCard = () => {
         </div>
       </div>
       <div className="photos-images">
+        <div className="photos-icons-img">
         <NavIcon url={PhotosImage1} />
+        </div>
+        <div className="photos-icons-img">
         <NavIcon url={PhotosImage2} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage3} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage4} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage5} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage6} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage7} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage8} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage9} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage10} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage11} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage12} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage13} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage14} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage15} />
+        </div>
+        <div className="photos-icons-img">
+        <NavIcon url={PhotosImage16} />
+        </div>
+     
+        {/* <NavIcon url={PhotosImage2} />
         <NavIcon url={PhotosImage3} />
         <NavIcon url={PhotosImage4} />
         <NavIcon url={PhotosImage5} />
@@ -53,7 +101,7 @@ const MainPhotosCard = () => {
         <NavIcon url={PhotosImage13} />
         <NavIcon url={PhotosImage14} />
         <NavIcon url={PhotosImage15} />
-        <NavIcon url={PhotosImage16} />
+        <NavIcon url={PhotosImage16} /> */}
         {/* <NavIcon url={PhotosImage1} /> */}
       </div>
     </div>

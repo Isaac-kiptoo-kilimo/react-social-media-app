@@ -17,8 +17,10 @@
 @media screen and (max-width:500px){
     .photos-right-content{
         background-color: #F8FAFC;
+        margin: 10px auto;
+        width: 94vw;
         .photos-middle-content{
-            width: 100vw;
+            width: 100%;
             display: flex;
             flex-direction: column;
             margin: 0;                
