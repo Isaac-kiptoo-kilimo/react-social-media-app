@@ -17,3 +17,17 @@
       height: 100%;
     }
   }
+
+  @media screen and (max-width: 500px){
+    .RightContent {
+      display: none;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .RightContent {
+      display: none;
+      
+    }
+  }

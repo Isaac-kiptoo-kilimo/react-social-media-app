@@ -11,8 +11,7 @@ const FriendsPage=()=>{
          <div className="top">
           <FriendsCard/>
         </div>
-        <div className="bottom">
-        </div>
+       
       </div>
       
 

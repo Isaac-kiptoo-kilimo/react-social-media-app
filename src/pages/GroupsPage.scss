@@ -32,3 +32,18 @@
     
     }
 }
+
+@media screen and (max-width: 768px){
+    .group-right-content{
+        background-color: #F8FAFC;
+        width: 90vw;
+        margin: 20px auto;                
+
+        .group-middle-content{
+            flex-direction: column;
+            width: 100%;
+        }
+    
+    
+    }
+}

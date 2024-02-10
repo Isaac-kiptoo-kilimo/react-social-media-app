@@ -15,29 +15,28 @@ const Main = () => {
   return (
     <div className="main-wrapper">
       <div className="top-nav">
-      <Navbar/>
+        <Navbar />
       </div>
       <div className="main">
-      <div className="sidebar">
-        <SideBar />
-      </div>
-      <div className="main-content">
-        <Routes>
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/timeline" element={<Timeline />} />
-          <Route path="/friends" element={<FriendsPage />} />
-          <Route path="/groups" element={<GroupsPage />} />
-          <Route path="/videos" element={<Videos />} />
-          <Route path="/photos" element={<Photos />} />
-          <Route path="/events" element={<Events />} />
-        </Routes>
-      </div>
-      <div className="rightbar">
-        <RightBar />
+        <div className="sidebar">
+          <SideBar />
+        </div>
+        <div className="main-content">
+          <Routes>
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/timeline" element={<Timeline />} />
+            <Route path="/friends" element={<FriendsPage />} />
+            <Route path="/groups" element={<GroupsPage />} />
+            <Route path="/videos" element={<Videos />} />
+            <Route path="/photos" element={<Photos />} />
+            <Route path="/events" element={<Events />} />
+          </Routes>
+        </div>
+        <div className="rightbar">
+          <RightBar />
+        </div>
       </div>
     </div>
-    </div>
-   
   );
 };
 

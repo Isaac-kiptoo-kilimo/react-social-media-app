@@ -20,7 +20,25 @@
             width: 100vw;
             display: flex;
             flex-direction: column;
-            margin: 0;                
+            margin: 0;
+            margin-left: 0;                
+                
+        }
+    
+    
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .friends-right-content{
+        background-color: #F8FAFC;
+        .friends-middle-content{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            margin-left: 0;                
         }
     
     
