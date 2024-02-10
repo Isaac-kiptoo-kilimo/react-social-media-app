@@ -9,8 +9,10 @@ const PostsCard = () => {
   return (
       <div className="post-card-head">
         <div className="post-card-left-items">
+          <div className="main-post-card-user">
           <div className="post-card-user">
             <h4>UD</h4>
+          </div>
           </div>
           <div className="post-card-user-desc">
             <h4>UI / UX Designer</h4>

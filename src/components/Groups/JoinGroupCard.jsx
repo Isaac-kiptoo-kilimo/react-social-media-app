@@ -30,7 +30,9 @@ const JoinGroupCard = () => {
           <PostsCard />
           <PostImageCard PostImage={MaskGroup1} />
           <div className="group-page-icon">
+          <div className="group-btn-card">
             <Button msg="Join Group" />
+            </div>
             <div className="group-bottom">
               <MembersIcons MbrIcon={EventThree} />
               <MembersIcons MbrIcon={EventOne} />
@@ -45,7 +47,9 @@ const JoinGroupCard = () => {
           <PostsCard />
           <PostImageCard PostImage={MaskGroup2} />
           <div className="group-page-icon">
+            <div className="group-btn-card">
             <Button msg="Join Group" />
+            </div>
             <div className="group-bottom">
               <MembersIcons  MbrIcon={EventThree} />
               <MembersIcons className="mbrs-icon" MbrIcon={EventOne} />

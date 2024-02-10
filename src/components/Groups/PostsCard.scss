@@ -7,12 +7,17 @@
     .post-card-left-items{
         display: flex;
         gap: 10px;
-       .post-card-user{
-        background-color: #ED4F9D;
-        padding: 16px;
-        border-radius: 50%;
-        color: white;
-       }
+        .main-post-card-user{
+            display: flex;
+            align-items: center;
+            .post-card-user{
+                background-color: #ED4F9D;
+                padding: 16px;
+                border-radius: 50%;
+                color: white;
+               }
+        }
+       
        .post-card-user-desc{
         display: flex;
         flex-direction: column;
