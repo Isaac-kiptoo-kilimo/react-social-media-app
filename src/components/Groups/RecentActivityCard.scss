@@ -53,3 +53,37 @@ padding: 10px;
     padding: 12px;
 }
 }
+
+@media screen and (max-width: 500px){
+    .recent-card-container{
+       width: 100%;
+        .recent-user{
+           
+            .recent-icon{
+                display: flex;
+                .icon-user-initial{
+             
+                }
+                .img-recent{
+                  
+                }
+            }
+            .recent-user-desc{
+                
+                p{
+                   
+                  
+                }
+            }
+        }
+        .recent-content-desc{
+           
+        }
+        .recent-images{
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+            gap: 10px;
+        }
+        }
+}

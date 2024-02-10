@@ -8,7 +8,7 @@ const PostImageCard = ({PostImage}) => {
     <div className="group-post-card">
 
       <div className="post-card-image">
-        <img src={PostImage} alt="post Image" />
+        <img style={{width:'100%'}} src={PostImage} alt="post Image" />
       </div>
       
     </div>

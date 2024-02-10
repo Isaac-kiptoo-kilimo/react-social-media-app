@@ -8,10 +8,11 @@
     margin: 10px;
     width: 60vw; 
     margin-left: 260px;
-    background-color: white;
+    // background-color: white;
     gap: 25px;
+    border-radius: 8px;
     h2{
-        padding: 14px 0;
+        padding: 14px 10px;
     }
     }
 
@@ -23,10 +24,9 @@
     .group-right-content{
         background-color: #F8FAFC;
         .group-middle-content{
-            width: 100vw;
-            display: flex;
+            width: 90vw;
             flex-direction: column;
-            margin: 0;                
+            margin: 20px auto;                
         }
     
     
