@@ -1,6 +1,7 @@
 import React from "react";
-import "./TimelineCard.scss";
+import "./TimeCard.scss";
 import wade from "../../assets/wade.png";
+import Add from "../../assets/add.png";
 import jane from "../../assets/jane.png";
 import esther from "../../assets/esther.png";
 import brooklyn from "../../assets/brooklyn.png";
@@ -10,15 +11,13 @@ import Jenny from "../../assets/jenny.png";
 import Robert from "../../assets/robert.png";
 import Cody from "../../assets/cody.png";
 import Kristina from "../../assets/kristina.png";
+import NavIcon from "../shared/NavIcon";
 
 import RightContent from "../profile/RightContent";
+import TimelineBottom from "./TimelineBottom";
 
 const TimelineCard = () => {
   const friends = [
-    {
-      image: Angela,
-      username: "You",
-    },
     {
       image: wade,
       username: "wadee",
@@ -51,10 +50,6 @@ const TimelineCard = () => {
       image: Cody,
       username: "Cody",
     },
-    {
-      image: Kristina,
-      username: "Kristina",
-    },
   ];
   return (
     <div className="timeContainer">
@@ -63,19 +58,30 @@ const TimelineCard = () => {
           <h2>Your Timeline</h2>
         </div>
 
-       <div className="timelines">
-       {friends &&
-          friends.map((item, index) => (
-            <div className="timeline" key={index}>
-              <div className="timeline-card-top">
-                <img src={item.image} alt={item.name} />
-                <p>{item.username}</p>
+        <div className="timelines">
+          <div className="first-icons">
+            <div className="user-items">
+              <div className="you-user">
+                <img src={Angela} style={{ width: "100%" }} alt={name} />
+              </div>
+              <div className="plus-icon">
+                <NavIcon url={Add} />
               </div>
             </div>
-          ))}
-       </div>
+            <p>You</p>
+          </div>
+          {friends &&
+            friends.map((item, index) => (
+              <div className="timeline" key={index}>
+                <div className="timeline-card-top">
+                  <img src={item.image} alt={item.name} />
+                  <p>{item.username}</p>
+                </div>
+              </div>
+            ))}
+        </div>
       </div>
-      <RightContent />
+      <TimelineBottom />
     </div>
   );
 };

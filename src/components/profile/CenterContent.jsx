@@ -4,6 +4,7 @@ import Vector from '../../assets/Group.png'
 import Link from '../../assets/link.png'
 import Map from '../../assets/map.png'
 import unsplash from '../../assets/photo-image1.png'
+import unsplash2 from '../../assets/photo-image2.png'
 
 
 const CenterContent = () => {
@@ -48,7 +49,7 @@ const CenterContent = () => {
             </div>
             <div className="pics">
                 <img src={unsplash} alt="" />
-                <img src={unsplash} alt="" />
+                <img src={unsplash2} alt="" />
             </div>
         </div>
     </div>

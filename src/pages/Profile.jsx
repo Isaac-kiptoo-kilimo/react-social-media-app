@@ -1,4 +1,3 @@
-import Bottom from '../components/profile/Bottom';
 import Top from '../components/profile/Top';
 import CenterBody from '../layout/CenterBody';
 import './Profile.scss';
