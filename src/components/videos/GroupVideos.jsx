@@ -75,6 +75,7 @@ const GroupVideos = () => {
           </div>
           <Button msg="See All" />
         </div>
+        
       </div>
     </div>
   );

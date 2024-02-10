@@ -1,14 +1,17 @@
 .video-right-content{
     display: flex;
     flex-wrap: wrap;
-    
     background-color: #F8FAFC;
     .video-middle-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
         margin: 10px;
         width: 60vw; 
         margin-left: 260px;
-        background-color: white;
+        // background-color: white;
         border-radius: 12px;
+        overflow-y: hidden;
     }
 
 
