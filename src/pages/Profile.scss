@@ -5,7 +5,7 @@
     .profile-content{
         margin: 10px;
         width: 60vw; 
-        margin-left: 260px;
+        margin-left: 16rem;
 
 
     }
@@ -52,17 +52,11 @@
     }
 }
 
-// @media screen and (min-width:769px){
-//     .profile-right-content{
-//         width: 100vw;
-//         padding: 20px;
-//         .profile-content{
-//             width: 100%;
-//             display: flex;
-//             margin-left: 0;
-//             flex-direction: column;
-//             margin: 10px auto;                
-//         }
+@media screen and (min-width: 821px) and (max-width: 1024px){
+    .profile-right-content{
+        .profile-content{
+            margin-left: 10rem;
+        }
     
-//     }
-// }
+    }
+}
