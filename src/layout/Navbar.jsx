@@ -11,6 +11,10 @@ import Notifications from "../components/notifications/Notifications";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Dropdown from "../components/navbar/Dropdown";
+import SideBar from './SideBar'
+import RightBar from './RightBar'
+import RightBarRes from "../components/Responsiveness/RightBarRes";
+import SideBarRes from "../components/Responsiveness/SideBarRes";
 
 const Navbar = () => {
 
@@ -20,6 +24,18 @@ const Navbar = () => {
 
 
   const [isLogoutVisible , setLogoutVisibility]=useState(false)
+  const [isSidebarVisible , setSidebarVisibility]=useState(false)
+  const [isRightbarVisible , setRightbarVisibility]=useState(false)
+
+
+  const handleToggleSidebar = () => {
+    setSidebarVisibility(!isSidebarVisible);
+  };
+
+  const handleToggleRightbar = () => {
+    setRightbarVisibility(!isRightbarVisible);
+  };
+
 
   const toggleLogout =()=>{
     setLogoutVisibility(!isLogoutVisible);
@@ -46,7 +62,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-logo">
         <img src={LogoIcon} alt={LogoIcon} />
-        <div className="resp-menu">
+        <div className="resp-menu" onClick={handleToggleSidebar}>
         <img src={Responsive} alt={Responsive} />
         <span>Menu</span>
         </div>
@@ -55,7 +71,10 @@ const Navbar = () => {
         <div className="nav-input">
           <SearchForm />
         </div>
-        <div>
+        <div className="nav-far-right">
+        <div className="resp-right-menu" onClick={handleToggleRightbar}>
+        <img src={Responsive} alt={Responsive} />
+        </div>
           <div className="nav-icons">
             <NavIcon url={Message} />
             <NavIcon url={ActiveNotification}  onClick={toggleNotification} />
@@ -63,9 +82,7 @@ const Navbar = () => {
             <NavIcon onClick={toggleLogout} url={Chevron} />
           </div>
         </div>
-        <div className="resp-right-menu">
-        <img src={Responsive} alt={Responsive} />
-        </div>
+        
       </div>
       {isLogoutVisible && (
       <div className="logout">
@@ -75,7 +92,17 @@ const Navbar = () => {
     }
     </div>
     </div>
-   
+    
+    <div className={isSidebarVisible ? "res-sidebar visible" : "res-sidebar"}>
+    <div className="overlay"></div>
+  <div className="sidebar-content">
+    <SideBarRes />
+  </div>
+</div>
+
+   <div className={isRightbarVisible ? "res-rightbar visible" : "res-rightbar"}>
+   <RightBarRes/>
+   </div>
     {isNotificationVisible && (
         <div className="notifications-main">
           <Notifications /> 
