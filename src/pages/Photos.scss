@@ -29,3 +29,18 @@
     
     }
 }
+
+
+@media screen and (max-width:768px){
+    .photos-right-content{
+        background-color: #F8FAFC;
+        width: 100vw;
+        .photos-middle-content{
+            width: 94%;
+            display: flex;
+            margin: 10px auto;
+        }
+    
+    
+    }
+}

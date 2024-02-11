@@ -16,7 +16,6 @@
 
 @media screen and (max-width:500px){
     .event-right-content{
-        // background-color: #F8FAFC;
         width: 94vw;
         margin: 10px auto;
         .event-middle-content{
@@ -24,6 +23,18 @@
             display: flex;
             flex-direction: column;
             margin: 0;                
+        }
+    
+    
+    }
+}
+
+@media screen and (max-width:768px){
+    .event-right-content{
+        width: 100vw;
+        .event-middle-content{
+            width: 94%;
+            margin: 10px auto;
         }
     
     
