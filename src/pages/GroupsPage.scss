@@ -40,11 +40,17 @@
             width: 94%;
             margin: 20px auto;    
             
-        }
+        }   
     
-    
-    
-    
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 1024px){
+    .group-right-content{
+        .group-middle-content{
+            margin-left: 10.5rem;    
+            
+        }   
     
     }
 }
