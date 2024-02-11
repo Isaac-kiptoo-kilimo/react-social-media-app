@@ -64,6 +64,8 @@
             .posts,.post{
                 width: 20%;
                 padding: 0 10px;
+                display: flex;
+                flex-direction: column;
     
             }
             .posts{
@@ -79,10 +81,60 @@
     
    
 
+    @media screen and (max-width: 768px){
+        .Top{
+            width: 100%;
+            margin: 10px auto;
+            .BackGround{
+                width: 100%;
+                .blueimage{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .btn{
+                        background-size: 100%;
+                    }
+                    .avatar{
+                        margin-top: -100px;
+                        width: 30%;
+                        margin-left: 0px;
+                    }
+                }
+            }
+            .bottom-top{
+                flex-direction: column;
+                align-items: center;
+                .head-pro{
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 0;
+                    h2{
+                        font-size: 30px;
+                    }
+            
+                }
+                .navs{
+                    padding: 0;
+                    gap: 6px;
+                    font-size: 12px;
+                    .posts,.post{
+                        padding: 0;
+                        .dim-header{
+                            font-size: 12px;
+    
+                        }
+                    }
+                }
+                   }
+                    
+        }
+    }
+
 
 @media screen and (max-width: 500px){
     .Top{
-        width: 90%;
+        width: 100%;
         margin: 10px auto;
         .BackGround{
             width: 100%;
@@ -114,11 +166,36 @@
         
             }
             .navs{
-                padding: 1rem;
-                gap: 10px;
-                .posts{
+                padding: 0;
+                gap: 6px;
+                font-size: 12px;
+                .posts,.post{
+                    padding: 0;
                     .dim-header{
-                        font-size: 14px;
+                        font-size: 12px;
+
+                    }
+                }
+            }
+               }
+                
+    }
+}
+
+@media screen and (max-width: 330px){
+    .Top{
+        width: 100%;
+        margin: 10px auto;
+       
+        .bottom-top{
+            
+            .navs{
+             
+                .posts,.post{
+                    flex-wrap: wrap;
+                    padding: 10px 0;
+                    .dim-header{
+                        font-size: 10px;
                     }
                 }
             }
