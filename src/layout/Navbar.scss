@@ -61,17 +61,31 @@
     display: none;
 }
 
-
-
-  .notifications-main{
-    position: absolute;
-    background-color: #F8FAFC;
-    z-index: 1000;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    overflow-x: scroll;
+.not-container{
+    .overlay-not {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(31, 30, 30, 0.5);
+        z-index: 1000;
+      }
+      .notifications-main{
+        position: absolute;
+        background-color: #F8FAFC;
+        z-index: 1000;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        overflow-x: scroll;
+        
+    }
+    
 }
+
+
 
 .logout{
     margin: 0 auto;

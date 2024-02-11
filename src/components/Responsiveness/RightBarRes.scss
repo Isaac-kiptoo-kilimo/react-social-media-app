@@ -1,13 +1,19 @@
 .res-right-content{
     display: flex;
-    // flex: 6;
-    background-color: white;
-    padding: 1rem;
-    width: 60vw;
-    gap: 10px;
-    height: 100%;
-    // position: fixed;
+    position: fixed;
+    top: 0;
     right: 0;
+    height: 100%;
+    width: 50vw;
+    overflow-y: auto;
+    background-color: white;
+    padding: 5px;
+    z-index: 1100;
+    &.visible {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
     .res-rightSide{
       width: 100%;
       background-color: #F8FAFC;
@@ -18,16 +24,18 @@
     }
   }
 
-//   @media screen and (max-width: 500px){
-//     .RightContent {
-//       display: none;
-      
-//     }
-//   }
+// SideBarRes.scss
+.res-sidenav {
+  // display: none;
+ 
+  // margin: 10px 0 0 10px;
 
-//   @media screen and (max-width: 768px){
-//     .RightContent {
-//       display: none;
-      
-//     }
-//   }
+ 
+
+  .sidebar-content {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+
+
+}
