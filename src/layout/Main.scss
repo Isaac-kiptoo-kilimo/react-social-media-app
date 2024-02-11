@@ -7,16 +7,19 @@
     width: 100vw;
     overflow-x: hidden;
     .sidebar{
-        // width: 20vw;
+        // width: 20%;
         position: fixed;
         // top: 88px; 
         left: 0;
     }
     .main-content{
-        // width: 80vw;
+        // width: 78%;
         
         // margin: 10px;
         // padding: 20px;
+    }
+    .rightbar{
+        // width: 25%;
     }
 }
 
@@ -30,5 +33,20 @@
             display: none;
         }
        
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 820px){
+    .main {
+        margin-top: 88px;
+        gap: 10px;
+        width: 100vw;
+        padding-left: 0;
+        .sidebar{
+            display: none;
+        }
+      .rightbar{
+        display: none;
+      }
     }
 }
