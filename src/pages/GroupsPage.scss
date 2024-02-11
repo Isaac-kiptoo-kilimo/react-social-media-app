@@ -8,7 +8,6 @@
     margin: 10px;
     width: 60vw; 
     margin-left: 260px;
-    // background-color: white;
     gap: 25px;
     border-radius: 8px;
     h2{
@@ -26,23 +25,26 @@
         .group-middle-content{
             width: 90vw;
             flex-direction: column;
-            margin: 20px auto;                
+            margin: 20px auto;    
+            
         }
     
     
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 501px){
     .group-right-content{
+        width: 100vw;
         background-color: #F8FAFC;
-        width: 90vw;
-        margin: 20px auto;                
-
         .group-middle-content{
-            flex-direction: column;
-            width: 100%;
+            width: 94%;
+            margin: 20px auto;    
+            
         }
+    
+    
+    
     
     
     }

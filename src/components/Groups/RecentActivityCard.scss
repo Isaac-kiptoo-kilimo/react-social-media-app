@@ -76,3 +76,23 @@ padding: 10px;
         }
         }
 }
+
+
+@media screen and (min-width: 501px){
+    .recent-card-container{
+       width: 100%;
+        .recent-user{
+           
+            .recent-icon{
+                display: flex;
+               
+            }
+          
+        }
+       
+        .recent-images{
+            padding: 0;
+            gap: 10px;
+        }
+        }
+}

@@ -110,3 +110,26 @@
         }
     }
 }
+
+@media screen and (min-width: 501px){
+    .group-container{
+        width: 100%;
+        margin: 0 auto;
+        .group-card-container{
+            width: 100%;
+            display: flex;
+            .card-contents{
+                width: 48%;
+                .group-page-icon{
+                    gap: 10px;
+                    .group-btn-card{
+                        width: 100%;
+                       
+                    }
+                }
+                  
+            }
+
+        }
+    }
+}
