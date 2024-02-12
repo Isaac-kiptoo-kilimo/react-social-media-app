@@ -20,11 +20,8 @@
    
     .menu-item{
       display: flex;
-      // justify-content: center;
-      // align-items: center;
-
       gap: 8px;
-      padding: 9px;
+      padding: 6px;
       color: #64748B;
     }
     .active {
@@ -38,7 +35,6 @@
         margin-left: -10px;
         height: 20px;
         width: 3px;
-        // margin-right: 5px;
       }
       img {
         filter: brightness(150%); 

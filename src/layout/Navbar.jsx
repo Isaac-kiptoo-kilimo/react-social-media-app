@@ -85,14 +85,14 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          {isLogoutVisible && (
+        
+        </div>
+      </div>
+      {isLogoutVisible && (
             <div className="logout">
               <Dropdown />
             </div>
           )}
-        </div>
-      </div>
-
       <div className={isSidebarVisible ? "res-sidebar visible" : "res-sidebar"}>
         <div className="overlay"></div>
         <div className="sidebar-content">

@@ -82,17 +82,20 @@
         overflow-x: scroll;
         
     }
+
     
 }
 
 
-
 .logout{
-    margin: 0 auto;
-    padding-top: 20px;
-    z-index: 1100;
+    position: absolute;
+    background-color: #F8FAFC;
+    z-index: 1000;
+    top: 10%;
+    right: 1%;
+    overflow-x: scroll;
+    
 }
-
 
 @media screen and (max-width: 500px){
   
