@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import timeline from "../../assets/layout-grid.png";
 import friends from "../../assets/users.png";
 import groups from "../../assets/star.png";
@@ -8,7 +8,9 @@ import photos from "../../assets/image.png";
 import Events from "../../assets/calendar.png";
 import "./SideItems.scss";
 
-function SideItems() {
+function SideItems({ onClose }) {
+  const navigate = useNavigate();
+
   const menuItems = [
     {
       name: "Timeline",
@@ -41,7 +43,10 @@ function SideItems() {
       path: "/events",
     },
   ];
-
+  const handleItemClick = (path) => {
+    onClose(); 
+    navigate(path);
+  };
   return (
     <div className="sidemenu">
       <div className='heading'>
@@ -50,6 +55,7 @@ function SideItems() {
       <div className="menu-down">
         {menuItems &&
           menuItems.map((item) => (
+            <div key={item.path} className="menu-item" onClick={() => handleItemClick(item.path)}>
             <NavLink style={{textDecorationLine:"none"}}
               key={item.path}
               to={item.path}
@@ -59,6 +65,7 @@ function SideItems() {
               <img src={item.icon} alt={item.name} />
               <p>{item.name}</p>
             </NavLink>
+            </div>
           ))}
       </div>
     </div>
